@@ -7,8 +7,7 @@ https://github.com/CHIANGEL/Awesome-LLM-for-RecSys
 
 ## Generate Rather Than Retrieve: Large Language Models Are Strong Context Generators (from Microsoft ICLR2023)
 
-Full paper [here](https://openreview.net/forum?id=fB0hRu9GZUS)
-Code [here](https://github.com/wyu97/GenRead/)
+[Paper](https://openreview.net/forum?id=fB0hRu9GZUS)           [Code](https://github.com/wyu97/GenRead/)
 
 This work leverages large language models (LLMs) to generate contextual documents for knowledge-intensive tasks such as open-domain question answering (QA), fact-checking, and dialogue systems. This approach contrasts with traditional methods that rely on retrieving relevant documents from external sources before generating answers.
 
