@@ -5,6 +5,8 @@ References: https://github.com/WLiK/LLM4Rec-Awesome-Papers
 https://github.com/CHIANGEL/Awesome-LLM-for-RecSys
 <img width="956" alt="Screenshot 2024-07-22 at 10 03 01 AM" src="https://github.com/user-attachments/assets/b6e98fce-0a57-4321-966f-f014fa1ccbf2">
 
+https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review
+
 ## Generate Rather Than Retrieve: Large Language Models Are Strong Context Generators (from Microsoft ICLR2023)
 
 [Paper](https://openreview.net/forum?id=fB0hRu9GZUS)           [Code](https://github.com/wyu97/GenRead/)
