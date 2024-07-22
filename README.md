@@ -1,12 +1,17 @@
 # GAI_recommendations
 
-Papers: https://github.com/WLiK/LLM4Rec-Awesome-Papers
+References: https://github.com/WLiK/LLM4Rec-Awesome-Papers
 
 https://github.com/CHIANGEL/Awesome-LLM-for-RecSys
+<img width="956" alt="Screenshot 2024-07-22 at 10 03 01 AM" src="https://github.com/user-attachments/assets/b6e98fce-0a57-4321-966f-f014fa1ccbf2">
+
 
 ## Is ChatGPT a Good Recommender? A Preliminary Study
 
 [Paper] (https://arxiv.org/pdf/2304.10149)
+
+<img width="694" alt="Screenshot 2024-07-22 at 10 01 57 AM" src="https://github.com/user-attachments/assets/216d6858-3b87-4878-ab29-0ab98e0d622c">
+
 
 Key aspects of the study include:
 
