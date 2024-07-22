@@ -5,6 +5,28 @@ References: https://github.com/WLiK/LLM4Rec-Awesome-Papers
 https://github.com/CHIANGEL/Awesome-LLM-for-RecSys
 <img width="956" alt="Screenshot 2024-07-22 at 10 03 01 AM" src="https://github.com/user-attachments/assets/b6e98fce-0a57-4321-966f-f014fa1ccbf2">
 
+## Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations (from Meta ICLM2024)
+
+full paper [here](https://openreview.net/forum?id=xye7iNsgXn)
+
+The paper introduces a new architecture for recommendation systems called the Hierarchical Sequential Transduction Unit (HSTU). This model is designed to handle the high cardinality, non-stationary nature of streaming recommendation data using generative modeling frameworks.
+
+### Key Contributions:
+
+1. **Generative Training Approach**:
+   - The authors propose moving from traditional impression-level training to a generative training framework, significantly reducing computational complexity. This approach amortizes encoder costs across multiple targets, making the training process more efficient and scalable for industrial-scale systems.
+
+2. **Hierarchical Sequential Transduction Unit (HSTU)**:
+   - HSTU is composed of layers connected by residual connections and includes sub-layers for Pointwise Projection, Spatial Aggregation, and Pointwise Transformation. This design replaces heterogeneous modules in traditional deep learning recommendation models (DLRMs) with a single modular block, simplifying and enhancing the model's efficiency.
+
+3. **Performance and Efficiency**:
+   - HSTU-based Generative Recommenders outperform traditional models on various datasets, showing improvements of up to 65.8% in Normalized Discounted Cumulative Gain (NDCG) and being 5.3x to 15.2x faster than FlashAttention2-based Transformers on sequences of length 8192. The model has been deployed on a large internet platform with billions of users, demonstrating its practical scalability and efficiency.
+
+4. **Scalability and Carbon Footprint**:
+   - The model's performance scales as a power-law of training compute, similar to other large-scale models like GPT-3 and LLaMa-2. This scaling reduces the carbon footprint required for future developments and paves the way for creating foundation models in the recommendation domain.
+
+The paper highlights the potential of using large-scale generative models in recommendation systems, offering significant improvements in performance and efficiency over traditional methods.
+
 
 ## Is ChatGPT a Good Recommender? A Preliminary Study
 
