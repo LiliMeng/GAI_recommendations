@@ -3,7 +3,7 @@
 Papers: https://github.com/WLiK/LLM4Rec-Awesome-Papers
 https://github.com/CHIANGEL/Awesome-LLM-for-RecSys
 
-## "Is ChatGPT a Good Recommender? A Preliminary Study"##
+## Is ChatGPT a Good Recommender? A Preliminary Study
 
 [Paper] (https://arxiv.org/pdf/2304.10149)
 
@@ -17,4 +17,4 @@ Key aspects of the study include:
 
 4. **Few-Shot Prompting**: The study also explored the use of few-shot prompting to better capture user preferences and needs, enhancing ChatGPT's ability to make personalized recommendations.
 
-Overall, the study highlights ChatGPT's potential in the recommendation domain, suggesting that with further exploration and refinement, large language models like ChatGPT could significantly improve recommendation systems【6†source】【7†source】【8†source】.
+Overall, the study highlights ChatGPT's potential in the recommendation domain, suggesting that with further exploration and refinement, large language models like ChatGPT could significantly improve recommendation systems.
