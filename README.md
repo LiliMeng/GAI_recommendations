@@ -9,32 +9,6 @@ https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Feat
 <img width="956" alt="Screenshot 2024-07-22 at 10 03 01 AM" src="https://github.com/user-attachments/assets/b6e98fce-0a57-4321-966f-f014fa1ccbf2">
 
 
-## Generate Rather Than Retrieve: Large Language Models Are Strong Context Generators (from Microsoft ICLR2023)
-
-[Paper](https://openreview.net/forum?id=fB0hRu9GZUS)           [Code](https://github.com/wyu97/GenRead/)
-
-This work leverages large language models (LLMs) to generate contextual documents for knowledge-intensive tasks such as open-domain question answering (QA), fact-checking, and dialogue systems. This approach contrasts with traditional methods that rely on retrieving relevant documents from external sources before generating answers.
-
-### Key Points:
-
-1. **GenRead Pipeline**:
-   - **Generate-Then-Read Approach**: Instead of retrieving documents, GenRead first prompts a large language model to generate relevant contextual documents based on the given question. Then, it reads these generated documents to produce the final answer.
-   - **Zero-Shot Setting**: In the zero-shot setting, the model generates contextual documents without any training data. This method significantly outperforms traditional retrieve-then-read pipelines by leveraging the LLM's ability to generate context-specific information directly.
-
-2. **Clustering-Based Prompting**:
-   - To improve the diversity and recall of the generated documents, the authors propose a clustering-based prompting method. This method selects distinct prompts from different clusters of question-document pairs to generate documents covering various perspectives. This approach enhances the overall quality and relevance of the generated content.
-
-3. **Performance and Evaluation**:
-   - **Experiments**: GenRead achieves impressive results on several benchmarks. For instance, it obtains exact match scores of 71.6 on TriviaQA and 54.4 on WebQ, outperforming state-of-the-art retrieve-then-read systems by significant margins.
-   - **Combination with Retrieval**: The paper also suggests that combining retrieval and generation can further improve performance, indicating that these methods can be complementary.
-
-4. **Challenges and Solutions**:
-   - **Document Diversity**: Generating multiple high-quality documents is challenging. The authors address this by using diverse human prompts and clustering-based methods to ensure a broad coverage of knowledge and reduce repetitiveness in generated texts.
-
-### Conclusion
-The GenRead method highlights the potential of large language models to serve as powerful context generators, offering a promising alternative to traditional document retrieval methods for knowledge-intensive tasks. This approach can lead to more accurate and contextually relevant answers by directly leveraging the vast knowledge encoded in LLMs.
-
-
 ## Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations (from Meta ICLM2024)
 
 full paper [here](https://openreview.net/forum?id=xye7iNsgXn)
