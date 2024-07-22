@@ -28,3 +28,50 @@ Key aspects of the study include:
 5. **Few-Shot Prompting**: The study also explored the use of few-shot prompting to better capture user preferences and needs, enhancing ChatGPT's ability to make personalized recommendations.
 
 Overall, the study highlights ChatGPT's potential in the recommendation domain, suggesting that with further exploration and refinement, large language models like ChatGPT could significantly improve recommendation systems.
+
+### Top-k Hit Ratio (HR@k) for Sequential and Direct Recommendation
+
+**Definition:**
+- **Hit Ratio (HR@k)** is a metric used to evaluate the effectiveness of a recommender system by checking if the true positive item (the item that a user actually interacted with) appears in the top-k recommended items.
+
+**Calculation:**
+- For each user, if the true positive item is within the top-k items recommended by the system, it is considered a hit.
+- HR@k is then calculated as the ratio of the number of hits to the total number of users.
+
+<img width="689" alt="Screenshot 2024-07-22 at 11 20 26 AM" src="https://github.com/user-attachments/assets/f62545eb-6de9-433d-9818-c688f0ad5438">
+
+
+**Use in Sequential Recommendation:**
+- In sequential recommendation, HR@k measures how well the system predicts the next item a user will interact with, considering the order and context of previous interactions.
+
+**Use in Direct Recommendation:**
+- For direct recommendation, HR@k evaluates the overall ability of the system to recommend relevant items from a static set of candidate items.
+
+### Top-k Normalized Discounted Cumulative Gain (NDCG@k) for Sequential and Direct Recommendation
+
+**Definition:**
+- **Normalized Discounted Cumulative Gain (NDCG@k)** is a metric that measures the ranking quality of the recommended items, taking into account the position of the true positive items in the recommended list and the relevance of the recommendations.
+
+**Calculation:**
+- **DCG@k (Discounted Cumulative Gain):** For each user, calculate the cumulative gain of the recommended items up to position \(k\), with gains discounted logarithmically based on the position of the items.
+
+<img width="725" alt="Screenshot 2024-07-22 at 11 20 36 AM" src="https://github.com/user-attachments/assets/8a6d1208-621d-455e-8864-632561a5d06a">
+
+
+**Use in Sequential Recommendation:**
+- In sequential recommendation, NDCG@k evaluates the system's ability to rank the next items in a sequence in an order that reflects the user's actual preferences, considering the sequence and context of prior interactions.
+
+**Use in Direct Recommendation:**
+- For direct recommendation, NDCG@k assesses the ranking quality of a set of recommended items, ensuring that more relevant items (those the user interacts with or rates highly) are ranked higher in the list.
+
+### Summary of Use Cases
+
+1. **Sequential Recommendation:**
+   - **HR@k:** Measures whether the next item in a user's interaction sequence appears in the top-k recommendations.
+   - **NDCG@k:** Evaluates how well the recommender system ranks the next item in terms of relevance and position in the top-k list.
+
+2. **Direct Recommendation:**
+   - **HR@k:** Checks if any relevant item is in the top-k recommended items for a user.
+   - **NDCG@k:** Assesses the overall ranking quality of recommended items, ensuring that highly relevant items are given higher priority in the recommendation list.
+
+These metrics are crucial in evaluating the performance of recommender systems, providing insights into both the accuracy (HR@k) and the ranking quality (NDCG@k) of the recommendations.
