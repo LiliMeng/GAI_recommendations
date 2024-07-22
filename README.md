@@ -1,10 +1,14 @@
 # GAI_recommendations
 
-References: https://github.com/WLiK/LLM4Rec-Awesome-Papers
+References: 
+
+https://github.com/WLiK/LLM4Rec-Awesome-Papers
 
 https://github.com/CHIANGEL/Awesome-LLM-for-RecSys
 
-https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review
+[Hui Yang's from Pinterest LinkedIN post](https://www.linkedin.com/posts/hui-yang-6769a793_llms-and-generative-models-for-rec-sys-activity-7220675927490379776-7VYG?utm_source=share&utm_medium=member_desktop)
+
+[Foundation models for Recommender System Paper List](https://github.com/westlake-repl/Recommendation-Systems-without-Explicit-ID-Features-A-Literature-Review)
 
 <img width="956" alt="Screenshot 2024-07-22 at 10 03 01 AM" src="https://github.com/user-attachments/assets/b6e98fce-0a57-4321-966f-f014fa1ccbf2">
 
