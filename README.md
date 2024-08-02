@@ -105,3 +105,6 @@ Overall, the experimental results show that ChatGPT performs well in rating pred
    - **NDCG@k:** Assesses the overall ranking quality of recommended items, ensuring that highly relevant items are given higher priority in the recommendation list.
 
 These metrics are crucial in evaluating the performance of recommender systems, providing insights into both the accuracy (HR@k) and the ranking quality (NDCG@k) of the recommendations.
+
+### DLRM (2019 from Meta)
+https://github.com/facebookresearch/dlrm
